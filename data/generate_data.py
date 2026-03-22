@@ -36,8 +36,8 @@ for i in range(5000):
     ctr = round(clicks / impressions * 100, 4) if impressions > 0 else 0
     conversion_rate = round(conversions / clicks * 100, 4) if clicks > 0 else 0
 
-    cpa = round(spend / conversions, 2)
-    roas = round(revenue / spend, 2)
+    cpa = round(spend / conversions, 2) if conversions > 0 else 0
+    roas = round(revenue / spend, 2) if spend > 0 else 0
 
     rows.append({
         'campaign_id': i + 1,
