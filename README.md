@@ -5,6 +5,11 @@
 
 ---
 
+![Python](https://img.shields.io/badge/Python-3.11-blue)
+![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-yellow)
+
+---
+
 ## Project Overview
 
 Analysis of 5,000 marketing campaigns across 5 channels, 5 campaign types, and 5 regions over 2024. Built to identify top-performing channels, optimize spend allocation, and surface actionable insights for marketing strategy.
@@ -38,6 +43,12 @@ Analysis of 5,000 marketing campaigns across 5 channels, 5 campaign types, and 5
 | Best campaign type | Lead Generation ($96.3M) |
 | Top region | Midwest ($103M revenue) |
 | Best month | October ($46.4M revenue) |
+
+---
+
+## Dashboard Preview
+
+![Campaign Analysis](data/campaign_analysis.png)
 
 ---
 
